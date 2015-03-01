@@ -1,0 +1,138 @@
+body {
+	background: #f9e933;
+	font-size: 100%;
+}
+
+header, main, footer {
+	min-width: 855px;
+	padding: 5px 0 5px 0;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+p, a, ul {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+	font-size: xx-large;
+}
+
+h3 {
+	font-size: x-large;
+}
+
+header {
+	background: white;
+	overflow: auto;
+}
+
+header h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+	float: left;
+	width: 570px;
+}
+
+header h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header h4 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+/* MAIN */
+main {
+	background: white;
+}
+
+main .about {
+	float: left;
+	width: 570px;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+    background: yellow;
+}
+
+main .content input {
+    font-size: 1.5em;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px rpx 0 0;
+	width: 120px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active {
+	background: #eee;
+}
+
+/* FOOTER */
+footer h5 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em;
+}
+
+footer ul {
+    width: 230px;
+}
+
+footer .contact {
+	float: left;
+	width: 570px;
+}
+
+footer .sitemap{
+	float: right;
+	width: 285px;
+}
+
+footer .sitemap .left {
+	float: left;
+}
+
+footer .sitemap .right {
+	float: right;
+}
